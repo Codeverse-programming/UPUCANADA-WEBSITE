@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coursemigo</title>
+    <link rel="stylesheet" href="./dist/style.css">
+    <link rel="stylesheet" href="./dist/css/slider.css">
+    <link rel="stylesheet" href="./dist/css/owl.carousel.min.css">/
+    <link rel="stylesheet" href="./dist/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+    <link rel="stylesheet" href="./dist/icomoon/style.css">
+    <link rel="shortcut icon" href="./dist/img/logo-2.png" type="image/x-icon">
+</head>
+
+<body class="bg-body text-white">
+    <header class="py-6 fixed top-0 left-0 right-0 w-full shadow-xl bg-white zIndex">
+        <nav
+            class=" relative flex justify-between items-center lg:flex lg:items-center lg:justify-between mx-auto px-6 lg:px-14 w-full">
+            <span class=" text-black text-xl cursor-pointer lg:hidden">
+                <label for="burger">
+                    <i class="icon-bars"></i>
+                </label>
+            </span>
+            <div class=" flex justify-between items-center">
+                <a href="./index.html">
+                    <div class=" text-xl md:text-3xl font-bold text-selected-text flex gap-2 lg:gap-3 items-center">
+                        <h1>Coursemigo</h1>
+                    </div>
+                </a>
+            </div>
+            <input type="checkbox" class=" hidden" name="burger" id="burger">
+            <ul
+                class=" lg:flex lg:bg-transparent lg:gap-10 lg:items-center lg:justify-center fixed zindex top-0 lg:static w-full h-full pt-10 lg:pt-0 -right-full leading-10 transition-all">
+                <span class="text-3xl cursor-pointer lg:hidden absolute top-4 mr-10 block right-0 zindex">
+                    <label for="burger">
+                        <i class=" icon-close"></i>
+                    </label>
+                </span>
+                <li>
+                    <a href="./index.html" class="text-2xl md:text-lg">
+                        Home</a>
+                </li>
+                <li class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none]">
+                    <button id="hs-mega-menu-basic-dr" type="button"
+                        class="flex items-center justify-center w-full text-2xl md:text-lg font-normal text-center">
+                        Categories
+                        <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                    </button>
+                    <div
+                        class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-72 hidden z-10 bg-white sm:shadow-md p-2 sm:dark:border before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
+                        <div
+                            class="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none]">
+                            <button type="button"
+                                class="w-full flex justify-between items-center text-sm lg:text-lg text-gray-800 rounded-md py-2 px-3 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white">
+                                <a href="./product.html">
+                                    Product Design
+                                </a>
+                                <svg class="sm:-rotate-90 ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16"
+                                    viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </button>
+
+                            <div
+                                class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-72 hidden z-10 sm:mt-2 bg-white sm:shadow-md p-2 sm:dark:border before:absolute sm:border before:-right-5 before:top-0 before:h-full before:w-5 top-0 right-full !mx-[10px]">
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Fundamentals of UX Design
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Fundamentals of UX Design
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Fundamentals of UX Design
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Fundamentals of UX Design
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Fundamentals of UX Design
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Fundamentals of UX Design
+                                </a>
+                            </div>
+                        </div>
+
+                        <div
+                            class="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none]">
+                            <button type="button"
+                                class="w-full flex justify-between items-center text-sm lg:text-lg text-gray-800 rounded-md py-2 px-3 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white">
+                                <a href="./web-development.html">
+                                    Web Development
+                                </a>
+                                <svg class="sm:-rotate-90 ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16"
+                                    viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </button>
+
+                            <div
+                                class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-72 hidden z-10 sm:mt-2 bg-white sm:shadow-md p-2 sm:dark:border before:absolute sm:border before:-right-5 before:top-0 before:h-full before:w-5 top-0 right-full !mx-[10px]">
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./web-basics.html">
+                                    Web Development Basics
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./web-basics.html">
+                                    Web Development Basics
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./web-basics.html">
+                                    Web Development Basics
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./web-basics.html">
+                                    Web Development Basics
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./web-basics.html">
+                                    Web Development Basics
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./web-basics.html">
+                                    Web Development Basics
+                                </a>
+                            </div>
+                        </div>
+
+                        <div
+                            class="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none]">
+                            <button type="button"
+                                class="w-full flex justify-between items-center text-sm lg:text-lg text-gray-800 rounded-md py-2 px-3 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white">
+                                <a href="./product.html">
+                                    Cyber Security
+                                </a>
+                                <svg class="sm:-rotate-90 ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16"
+                                    viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </button>
+
+                            <div
+                                class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-72 hidden z-10 sm:mt-2 bg-white sm:shadow-md p-2 sm:dark:border before:absolute sm:border before:-right-5 before:top-0 before:h-full before:w-5 top-0 right-full !mx-[10px]">
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Cvbersecurity Fundamentals
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Cvbersecurity Fundamentals
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Cvbersecurity Fundamentals
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Cvbersecurity Fundamentals
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Cvbersecurity Fundamentals
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Cvbersecurity Fundamentals
+                                </a>
+                            </div>
+                        </div>
+
+                        <div
+                            class="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none]">
+                            <button type="button"
+                                class="w-full flex justify-between items-center text-sm lg:text-lg text-gray-800 rounded-md py-2 px-3 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white">
+                                <a href="./web-development.html">
+                                    Data Science
+                                </a>
+                                <svg class="sm:-rotate-90 ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16"
+                                    viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </button>
+
+                            <div
+                                class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-72 hidden z-10 sm:mt-2 bg-white sm:shadow-md p-2 sm:dark:border before:absolute sm:border before:-right-5 before:top-0 before:h-full before:w-5 top-0 right-full !mx-[10px]">
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./web-basics.html">
+                                    Data Analysis Basics
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./web-basics.html">
+                                    Data Analysis Basics
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./web-basics.html">
+                                    Data Analysis Basics
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./web-basics.html">
+                                    Data Analysis Basics
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./web-basics.html">
+                                    Data Analysis Basics
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./web-basics.html">
+                                    Data Analysis Basics
+                                </a>
+                            </div>
+                        </div>
+
+                        <div
+                            class="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none]">
+                            <button type="button"
+                                class="w-full flex justify-between items-center text-sm lg:text-lg text-gray-800 rounded-md py-2 px-3 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white">
+                                <a href="./product.html">
+                                    Project Management
+                                </a>
+                                <svg class="sm:-rotate-90 ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16"
+                                    viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </button>
+
+                            <div
+                                class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-72 hidden z-10 sm:mt-2 bg-white sm:shadow-md p-2 sm:dark:border before:absolute sm:border before:-right-5 before:top-0 before:h-full before:w-5 top-0 right-full !mx-[10px]">
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Project Management 101
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Project Management 101
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Project Management 101
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Project Management 101
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Project Management 101
+                                </a>
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 focus:ring-2 focus:ring-blue-500 dark:text-black dark:hover:bg-[#E82F58] dark:hover:text-white"
+                                    href="./fundamentals.html">
+                                    Project Management 101
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="./learning.html" class="text-2xl md:text-lg font-normal">My
+                        Learning</a>
+                </li>
+                <a href="./login.html" class="lg:hidden mb-6 block">
+                    <button
+                        class=" w-full px-4 py-2 bg-transparent font-bold text-md border-2 border-black">Login</button>
+                </a>
+                <a href="./signup.html" class="lg:hidden">
+                    <button
+                        class=" text-white w-full px-4 py-2 bg-black font-bold text-md border-2 border-black">Signup</button>
+                </a>
+            </ul>
+            <div class="flex justify-between items-center">
+                <div class=' flex gap-6 items-center'>
+                    <label for="search">
+                        <i class=' icon-search text-xl md:text-3xl block cursor-pointer'>
+                        </i>
+                    </label>
+                    <a href="./cart-empty.html">
+                        <i class=' icon-shopping-cart text-xl md:text-3xl block'></i>
+                    </a>
+                    <a href="./notification.html">
+                        <i class=' icon-notifications text-xl md:text-3xl block'></i>
+                    </a>
+                </div>
+                <a href="./login.html" class="hidden lg:block mr-5">
+                    <button
+                        class=" w-full px-4 py-2 bg-transparent font-bold text-md border-2 border-black">Login</button>
+                </a>
+                <a href="./signup.html" class="hidden lg:block">
+                    <button
+                        class=" text-white w-full px-4 py-2 bg-black font-bold text-md border-2 border-black">Signup</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="px-4 pt-20 md:px-10 lg:px-10 xl:px-20 md:mt-10 mb-6">
+        <div class="container w-full lg:w-1/2 mx-auto">
+            <div class="heading text-center mb-6">
+                <h1 class=" text-3xl mb-3 font-semibold">Contact Us</h1>
+                <p>Let us know how more we can help you</p>
+            </div>
+            <form action="">
+                <h3 class=" mb-3 text-sm lg:text-xl text-left">Name:</h3>
+                <div class="input-control mb-10">
+                    <input type="text" placeholder="Enter your full name"
+                        class=" py-4 lg:py-4 md:py-4 pl-2 rounded-lg w-full border-2 border-gray-400">
+                </div>
+
+                <h3 class=" mb-3 text-sm lg:text-xl">Email:</h3>
+                <div class="input-control mb-10">
+                    <input type="email" placeholder="Enter your password"
+                        class=" w-full rounded-lg py-4 lg:py-4 pl-4 border-2 border-gray-400">
+                </div>
+
+                <h3 class=" mb-3 text-sm lg:text-xl">Message:</h3>
+                <div class="input-control">
+                    <textarea name="" class=" border-2 border-gray-400 rounded-lg resize-none w-full" id="" cols="30"
+                        rows="10"></textarea>
+                </div>
+                <div class="button text-center mt-6">
+                    <a href="./cart-saved.html">
+                        <button class=' bg-[#2E2065] rounded-lg py-4 px-4 text-white border-none  text-sm w-full'>
+                            Send message
+                        </button>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="search">
+        <input type="checkbox" class=" hidden" name="search" id="search" />
+        <div class="search-model">
+            <div class=" h-full flex items-center justify-center">
+                <div class="search-close-switch">
+                    <label for="search" class=' text-white'>
+                        +
+                    </label>
+                </div>
+                <form class="search-model-form">
+                    <input type="text" id="search-input" placeholder="Search here....." />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="px-4 py-10 md:px-10 lg:px-10 xl:px-20 mt-10 md:mt-16 bg-[#2E2065]">
+        <div class="grid grid-cols-12">
+            <div class=" col-span-5 leading-10">
+                <div class="logo mb-3">
+                    <a href="./index.html">
+                        <div class=" text-lg md:text-2xl font-bold">
+                            <h1 class="text-white">Coursemigo</h1>
+                        </div>
+                    </a>
+                </div>
+                <ul class="">
+                    <li>
+                        <a href="./about-us.html" class=" text-white text-sm">About Us</a>
+                    </li>
+                    <li>
+                        <a href="./contact-us.html" class=" text-white text-sm active font-bold">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class=" col-span-3">
+                <ul class="leading-10 md:leading-10">
+                    <li>
+                        <a href="./careers.html" class=" text-white text-sm">Careers</a>
+                    </li>
+                    <li>
+                        <a href="./blog.html" class=" text-white text-sm">Blog</a>
+                    </li>
+                    <li>
+                        <a href="./faq.html" class=" text-white text-sm block">FaQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class=" col-span-4">
+                <ul class=" leading-10 md:leading-10">
+                    <li>
+                        <a href="./terms.html" class=" text-white text-sm">Terms</a>
+                    </li>
+                    <li>
+                        <a href="./privacy.html" class=" text-white text-sm">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="./help.html" class=" text-white text-sm block">Help & Support</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./node_modules/preline/dist/preline.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./dist/js/carousel.js"></script>
+    <script type="module" src="./dist/js/swiper-bundle.min.js"></script>
+</body>
+
+</html>
